@@ -1,0 +1,97 @@
+.jumbotron {
+	background-color: lightcyan;
+	margin-bottom: 0px;
+}
+
+.checked {
+	color: orange;
+}
+
+.img-skills {
+	max-height: 200px;
+	height: auto;
+	width: auto;
+	margin: 15px;
+}
+
+.img-timeline {
+	max-height: 100px;
+	height: auto;
+	width: auto;
+	margin: 10px;
+}
+
+.center-content {
+	justify-content: center;
+	text-align: center;
+}
+
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  background-color: gray;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+}
+
+.time-container {
+	padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+}
+
+/* Place the container to the left */
+.time-left {
+    left: 0;
+}
+
+/* Place the container to the right */
+.time-right {
+    left: 50%;
+}
+
+.time-content {
+    padding: 20px 30px;
+    position: relative;
+    border: 5px solid lightgray;
+    border-radius: 6px;
+
+}
+
+.navbar li {
+	margin-left: 12px;
+	margin-right: 12px;
+}
+
+.footer {
+	background-color: lightcyan;
+}
+
+.left-footer {
+	float: left;
+}
+
+.right-footer {
+	float: right;
+}
+
+.list-inline-item {
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+
+
+
+
