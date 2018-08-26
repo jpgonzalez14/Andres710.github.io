@@ -184,6 +184,20 @@
 	background-color: #CEF9FF;
 }
 
+.hidden {
+	opacity: 0;
+}
+
+#htmlcsslogo{
+	max-height: 200px;
+	max-width: 290px;
+	height: auto;
+	width: auto;
+	margin: 15px;
+
+}
+
+
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
 @media screen and (max-width: 700px) {
