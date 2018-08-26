@@ -2,8 +2,11 @@
 
 function main() {
 
+	//Some elements are hidden when the page finishes loading.
 	$('.projectDescription').hide();
 	$('.time-container').hide();
+
+	//Function to slide toggle some hidden elements when the corresponding button is clicked.
 	$('.myButton').on('click', 
 		function(){
 
@@ -12,6 +15,7 @@ function main() {
 
 		});
 
+	//Function to fade in some hidden elements as the scroll goes down.
 	$(window).scroll(function() {
 
 		var bottomWindow = $(this).scrollTop();
