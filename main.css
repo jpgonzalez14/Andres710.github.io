@@ -8,6 +8,28 @@
 .jumbotron {
 	background-color: lightcyan;
 	margin-bottom: 0px;
+	padding: 20px;
+}
+
+.profilePic-container {
+	float: right;
+}
+
+
+.img-profile {
+	max-height: 300px;
+	height: auto;
+	width: auto;
+	margin-left: 100px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	border-radius: 10px;
+
+
+}
+
+.nav-link {
+	color: white;
 }
 
 .checked {
@@ -26,6 +48,7 @@
 	height: auto;
 	width: auto;
 	margin: 10px;
+
 }
 
 .center-content {
