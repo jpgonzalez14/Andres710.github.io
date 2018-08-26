@@ -8,6 +8,7 @@ This is the repository for my personal web page. It is the first project of the 
 
 * HTML
 * CSS
+* Bootstrap
 * JavaScript
 * jQuery
 
