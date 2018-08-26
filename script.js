@@ -25,19 +25,19 @@ function main() {
 		console.log(bottomWindow);
 
 		if(bottomWindow > 1000){
-			$('#first-fadeIn').animate({'opacity':'1'}, 1000);
+			$('#first-fadeIn').animate({'opacity':'1'}, 1500);
 		}
 
 		if(bottomWindow > 1250){
-			$('#second-fadeIn').animate({'opacity':'1'}, 1000);
+			$('#second-fadeIn').animate({'opacity':'1'}, 1500);
 		}
 
 		if(bottomWindow > 1490){
-			$('#third-fadeIn').animate({'opacity':'1'}, 1000);
+			$('#third-fadeIn').animate({'opacity':'1'}, 1500);
 		}
 
 		if(bottomWindow > 1760){
-			$('#fourth-fadeIn').animate({'opacity':'1'}, 1000);
+			$('#fourth-fadeIn').animate({'opacity':'1'}, 1500);
 		}
 
 

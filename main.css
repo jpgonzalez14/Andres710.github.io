@@ -1,7 +1,12 @@
 
 
+body {
+	font-family: 'Slabo 27px', serif;
+}
+
+
 .section-title {
-	font-family: sans-serif;
+	font-family: 'Bitter', serif;
 }
 
 
@@ -20,7 +25,7 @@
 	max-height: 300px;
 	height: auto;
 	width: auto;
-	margin-left: 100px;
+	margin-left: 75px;
 	margin-bottom: 0px;
 	margin-top: 0px;
 	border-radius: 10px;
@@ -37,6 +42,7 @@
 	border-radius: 10px;
 	color: white;
 	margin-top: 10px;
+	padding: 5px;
 
 }
 
