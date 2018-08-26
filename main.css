@@ -6,7 +6,7 @@
 
 
 .jumbotron {
-	background-color: lightcyan;
+	background-color: #CEF9FF;
 	margin-bottom: 0px;
 	padding: 20px;
 }
@@ -25,6 +25,18 @@
 	margin-top: 0px;
 	border-radius: 10px;
 
+
+}
+
+.myButton {
+	margin: 10px;
+
+}
+
+.projectDescription {
+	border-radius: 10px;
+	color: white;
+	margin-top: 10px;
 
 }
 
