@@ -24,7 +24,8 @@
 <body>
 
 
-
+<!--JuanPablo: al hacer click para navegar la pagina, los cambio tienen a se bruscos
+ se recomienda revise es siguiente link: https://github.com/BlackrockDigital/startbootstrap-scrolling-nav-->
    <!-- Navbar -->
   <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed sticky-top">
     <!-- Brand -->
@@ -57,17 +58,20 @@
 
 
    <!-- Jumbotron used as a header -->
+  <!--JuanPablo: se recomienda que cada seccion se vea por separa en la pagina, es decir, que no se vea partes del contenido que sigue, de esta forma se veria mas organizada-->
   <div class="jumbotron">
     <div class="container text-left">
       <div class="row">
-        <div class="col-md-1"></div>
-        <div class="col-md-5">
-          <h1 class="section-title">Andrés Felipe López</h1> 
-          <br>
-          <h2 class="section-title">Systems and Computing Engineering</h2>
+        <!--Margin auto para que el texto apareza centrado y text aligh left para que quede al lado de la imagen -->
+        <div class="col-md-5" style="text-align: right; margin:auto;">
+          <h1 class="section-title">Andrés Felipe López</h1>
+          <!--JuanPablo: Quitar el br, se crea mucho espacio entre lineas
+            <br>
+          Cambio tamaño texto-->
+          <h5 class="section-title" style="color:#757575;">Systems and Computing Engineering</h5>
         </div>
         <div class="col-md-5 profilePic-container">
-          <img src="img/profilePic1.jpeg" alt="Persona photo" class="img-profile">
+          <img src="img/profilePic1.jpeg" alt="Persona photo" class="img-profile center">
         </div>
       </div>
     </div>
@@ -269,6 +273,8 @@
           <span class="fa fa-star checked"></span>
           <span class="fa fa-star checked"></span>
         </div>
+        <!--Las imagenes son buenas, sin embargo en mi opinion es mejor utilizar iconos, de esta forma cuando vaya a agregar mas 
+le pueda quedar organizado. link: https://fontawesome.com-->
         <div class="col-md-3 center-content">
           <h4 class="skillName">Python</h4>
           <img src="img/pythonlogo.png" class="img-skills" alt="Python Logo">
