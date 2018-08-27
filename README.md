@@ -26,7 +26,7 @@ You can visit the web page with the following URL: https://Andres710.github.io/ 
 Andrés Felipe López - af.lopezf
 
 ### Screenshot
-
+![Screenshot](img/screenshot.png)
 
 ### MIT License
 
